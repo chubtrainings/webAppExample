@@ -38,7 +38,7 @@
 			</container>
 		</configuration>
 	</plugin>
-    <!-- Adding Latet Maven Plugin -->
+    <!-- Adding Latest Maven Plugin -->
 	<plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-enforcer-plugin</artifactId>
@@ -52,7 +52,7 @@
                             <configuration>
                                 <rules>
                                     <requireMavenVersion>
-                                        <version>[3.6.8]</version>
+                                        <version>[3.8.4]</version>
                                     </requireMavenVersion>
                                 </rules>
                             </configuration>
